@@ -1,0 +1,2 @@
+int ValidarEdadLaboral(int valor);
+

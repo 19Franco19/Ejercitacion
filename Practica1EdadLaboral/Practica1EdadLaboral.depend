@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1535982152 source:d:\báez franco\practica1edadlaboral\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BáezF.h"
+
+1535982146 source:d:\báez franco\practica1edadlaboral\báezf.c
+
+1535981400 d:\báez franco\practica1edadlaboral\báezf.h
+
