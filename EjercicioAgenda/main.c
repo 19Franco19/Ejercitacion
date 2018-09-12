@@ -14,6 +14,7 @@ int main()
     int isEmpty[Cant],isEmptyAux,flag=0;
     int opcion,i,j;
     char seguir='s';
+    int opcionM;
     for(i=0;i<Cant;i++);
     {
         isEmpty[i]=1;
@@ -69,10 +70,37 @@ while(opcion=0);
             case 3:
             for(i=0;i<Cant;i++)
             {
+                printf("Legajo");
+                scanf("%d",&legajoAux);
+                flag=0;
                 printf("%d\t%s\t\t%s\t\t%d/n",Legajo[i],Apellido[i],Nombre[i],Edad[i]);
+                printf("Modificar S|N?");
+                scanf("%c",&rta);
+                if(rta== 's')
+                {
+                    printf("Menu");
+                    printf("1-Apellido");
+                    printf("2-Nombre");
+                    printf("3-Edad");
+                    printf("4-Salir");
+                    printf("Seleccionar:")
+                    scanf("%d",opcionM)
+                    switch(opcionM)
+                    {
+                    case 1:
+                        printf("Apellido");
+                        fflush(stdin);
+                        fgets(Apellido[i], ,)
+                        break;
+                    }
+                }
+
             }
-            while(opcion != 4);
-            break;
+            while(opcionM != 4);
+            else
+            {
+                printf("Datos no Modificados");
+            }
     }
 
     for(i=0;i<Cant;i++)
