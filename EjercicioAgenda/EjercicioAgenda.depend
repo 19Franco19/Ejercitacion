@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536339802 source:c:\users\alumno\desktop\funciones.c
+
+1536762948 source:d:\báez franco\ejercicioagenda\funciones.c
+
+1536763936 source:d:\báez franco\ejercicioagenda\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Funciones.h"
+	"Funciones.h"
+
+1536762939 d:\báez franco\ejercicioagenda\funciones.h
+
